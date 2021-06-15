@@ -84,20 +84,4 @@ namespace MEX
             }
         }
     }
-    public class MainListNode<T>
-    {
-        public MainListNode<T> Next { get; set; }
-        public MainListNode<T> Preview { get; set; }
-        public T Value { get; set; }
-        public MainListNode(T value)
-        {
-            Value = value;
-        }
-        public override string ToString()
-        {
-            return $"Node<{Value}>";
-        }
-    }
-
-    
 }
